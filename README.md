@@ -47,14 +47,21 @@ pip install opencv-python
 ```
 
 ## How to run
+### train your own model
 
+```bash
+git clone https://github.com/ultralytics/yolov5.git
+jupyter notebook --> YOLOv5_train_Ouster.ipynb   ## need to prepare your own training data
+```
+
+### track
 1. Download Ouster pcap frist
     [[pcap](https://drive.google.com/drive/folders/1Ds4X_oyU_fLYw02JkGmlM_VRx48BYSmx?usp=sharing) ]
 
 2. Run the code
 
     ```
-    python3 ouster_track.py
+    python3 ouster_track.py    ## still need to optimize
     ```
 
 3. Use python scripts to validate
