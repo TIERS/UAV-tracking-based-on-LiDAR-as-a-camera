@@ -4,5 +4,5 @@
 
 ## Abstract
 <p align="center"> 
-  < img decoding="async" src="./img/system_arch_fancy.pdf" width="50%">
+  <img src="./img/system_arch_fancy.pdf" width="50%">
 < /p>
